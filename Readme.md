@@ -18,9 +18,6 @@
 
 
 ##### 　 　
-#### Data sets: http://youngjuncho.com/datasets/
-
-##### 　 　
 #### Citation:
  　 　
 Youngjun Cho, Simon J. Julier and Nadia Bianchi-Berthouze, 2018. Instant Automated Inference of Perceived Mental Stress through Smartphone PPG and Thermal Imaging. Journal of Medical Internet Research / JMIR Mental Health - Special Issue on Computing and Mental Health (2018) (in press) <br />
