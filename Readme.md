@@ -1,58 +1,35 @@
-# [Deep Thermal Imaging]
+# [Smartphone PPG (Photoplethysmography)]
 ##### 　 　
 #### Information
- This README.md is created on 8th January 2018.<br />
  Author: Youngjun Cho<br />
- * Ph.D Candidate, UCLIC, Faculty of Brain Sciences, University College London (UCL)
- * MSc in Robotics, BSc in ICT
- * Email: youngjun.cho.15@ucl.ac.uk<br />
+ * Lecturer (Assitant Professor), Department of Computer Science, University College London (UCL)
+ * Email: youngjun.cho@ucl.ac.uk<br />
 
 ##### 　 　
 #### Requirement
-  Matlab (version>2012)<br />
+  Matlab (version>2015)<br />
   
-  MatConvNet (https://github.com/vlfeat/matconvnet): Deep CNN Framework for Matlab users.<br />
-  
 ##### 　 　
-#### Quick Instruction to install MatConvNet
-  git clone https://github.com/vlfeat/matconvnet.git<br />
+#### Quick Instruction
+  git clone https://github.com/deepneuroscience/Smartphone-PPG-PhotoPlethysmography<br />
  　 　<br />
   (On the command window of MATLAB)<br />
-  close all<br />
-  clc<br />
-  mex -setup C<br />
-  mex -setup C++　 　<br />
-  (Detailed instruction is available at http://www.vlfeat.org/matconvnet/)<br />
- 　 　
-##### 　 　
-#### Quick Instruction to use the Deep Thermal Imaging API
-  The first thing you need to do is to put the Deep Thermal Imaging API codes in the 'examples' directory.<br />
-  (e.g., c:\your_directory\matconvnet\examples\DeepThermalImagingAPI\*")<br />
-     
+  run_smartphone_PPG<br />
 
 
-  You can easily get example command lines by typing the below on the Matlab command window:<br />
-   
-
-  help deep_thermal_imaging_training_and_testing<br />
-  help deep_thermal_imaging_utils/buildconfusionmatrix<br />
-  help deep_thermal_imaging_utils/testingasample<br />
-  help deep_thermal_imaging_utils/growingdataset<br />
-  help deep_thermal_imaging_utils/simpleDRQ<br />
-  (Detailed instruction is available at http://youngjuncho.com/2018/deepthermalimagingapi/) <br/>
-<br />
 ##### 　 　
 #### Data sets: http://youngjuncho.com/datasets/
 
 ##### 　 　
 #### Citation:
  　 　
-Youngjun Cho, Nadia Bianchi-Berthouze, Nicolai Marquardt, and Simon J. Julier. "Deep Thermal Imaging: Proximate Material Type Recognition in the Wild through Deep Learning of Spatial Surface Temperature Patterns." In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, 2018.<br />
+Youngjun Cho, Simon J. Julier and Nadia Bianchi-Berthouze, 2018. Instant Automated Inference of Perceived Mental Stress through Smartphone PPG and Thermal Imaging. Journal of Medical Internet Research / JMIR Mental Health - Special Issue on Computing and Mental Health (2018) (in press) <br />
 ```
-@inproceedings{youngjunDeepBreath,  
-  title={Deep Thermal Imaging: Proximate Material Type Recognition in the Wild through Deep Learning of Spatial Surface Temperature Patterns.},  
-  author={Youngjun Cho, Nadia Bianchi-Berthouze, Nicolai Marquardt, Simon J. Julier},  
-  proceedingtitle={In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM},  
+@misc{smartphonePPG,  
+  title={Deep Thermal Imaging: Proximate Material Type Recognition in the Wild through Deep Learning of Spatial Surface Temperature Patterns},  
+  author={Youngjun Cho, Simon J. Julier, Nadia Bianchi-Berthouze},  
+  journal={JMIR Mental Health},
+  publisher={Journal of Medical Internet Research}
   year={2018}  
 }  
 ```
